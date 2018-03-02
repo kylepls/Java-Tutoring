@@ -1,0 +1,29 @@
+Used to pass initial values to an object when we create it.
+
+Syntax:
+
+    <class name>(<parameters>) {
+        // do stuff
+    }
+
+Example:
+
+    class Zach {
+      
+       public int age; // handled in constructor
+      
+       public Zach(int q) {
+           this.age = q;
+       }
+      
+       void printAge() {
+           System.out.println(age);
+       }
+    }
+
+    Zach zach  = new Zach(10);
+
+Is the same as doing:
+
+    Zach zach = new Zach();
+    zach.age = <integer>;

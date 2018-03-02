@@ -1,0 +1,29 @@
+Used to manipulate large amounts of data in a simple manner. 
+Defines a “thing”.
+The properties that make up a “thing” define its state.
+State is what the object currently is.
+
+Defining an object
+Syntax:
+    
+    class <name> {
+    }
+
+To create an instance of an object
+Syntax:
+    
+    new <name>();
+
+Example: 
+    
+    class Bob {}
+    new Bob(); // bob instance is very worthless, do not invest
+
+Assign as a variable:
+Syntax: 
+
+    <type> <name> = <value>
+
+Example:
+
+    Bob bobObject = new Bob();
