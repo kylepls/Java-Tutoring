@@ -11,7 +11,7 @@ Example:
 #### Escaping Characters
 If you needed to print out "Kyle is cool" - Bill to console you would type it like this:
 
-    ""Kyle is cool" - Bill"
+    "\"Kyle is cool\" - Bill"
 
 The problem is that Java thinks we are creating 2 separate strings. 
 One is "" and the other is " - Bill".
@@ -21,7 +21,7 @@ To fix this, lets tell Java to ignore the new quotes.
 You can ignore quotes by escaping them.
 
 Syntax:
-    \"
+    \\"
 
 Example:
-    "\"Kyle is cool\" - Bill"
+    "\\"Kyle is cool\\" - Bill"
