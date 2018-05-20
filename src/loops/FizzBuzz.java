@@ -7,7 +7,7 @@ package loops;
  * instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples
  * of both three and five print “FizzBuzz”.
  * 
- * Expected output: http://p.kyle.in/b55qr
+ * Expected output: http://p.kyle.in/ufxb7
  */
 public class FizzBuzz {
     public static void main(String[] args) {
